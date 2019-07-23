@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
+  <Vendor>
+    <Id>1874</Id>
+    <Name>NEXCOM International Co., Ltd.</Name>
+    <ImageData16x14>424de6000000000000007600000028000000100000000e000000010004000000000070000000c40e0000c40e000010000000000000000000000000008000008000000080800080000000800080008080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00ffff0000ffffff00aaaaaaaaaaaaaaaaff444aa444a4a4a4f4faaa4aaa444444f4ffaa4aaa444a44f4fffa4aaa444a44ff444aa444a4aaa4ffffffaaaaaaaaaaf4ff4ff4444a4a4af4f44ff4faaa4a4af4f44ff4ffaaa4aaf44f4ff4444fa4aaf44f4ff4ffff4a4af4ff4ff4444f4f4afffffffffffffffa</ImageData16x14>
+  </Vendor>
+  <Descriptions>
+    <Groups>
+      <Group>
+        <Type>B1100</Type>
+        <Name LcId="1033">Digital Input Block I/O Modules (NEIO B1100 Series)</Name>
+        <Name LcId="1031">Digital Eigang Block I/O Modules (NEIO B1100 Series)</Name>
+        <ImageData16x14>424de6000000000000007600000028000000100000000e000000010004000000000070000000c40e0000c40e000010000000000000000000000000008000008000000080800080000000800080008080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00ffff0000ffffff00ff9999ff9999ff99999ff9999ff9999ffffffffffffffffff22222277277222ff22222277277222ff22222222222222ff20202222000222ff20202220222022ff20220220222022ff20220220222022ff20220220222022ff20222020222022fff0fff0ff000ffffffffffffffffffff</ImageData16x14>
+      </Group>
+    </Groups>
+    <Devices>
+      <Device Physics="YY">
+        <Type ProductCode="#x00001101" RevisionNo="#x00000001">NEIO B1101</Type>
+        <Name LcId="1033"><![CDATA[NEIO B1101, 32Ch. Digital Input 24V, Sinking]]></Name>
+        <Name LcId="1031"><![CDATA[NEIO B1101, 32Ch. Digital Eigang 24V, Sinking]]></Name>
+        <URL LcId="1033"><![CDATA[http://www.nexcom.com/]]></URL>
+        <URL LcId="1031"><![CDATA[http://www.nexcom.com/]]></URL>
+        <GroupType>B1100</GroupType>
+        <Fmmu>Inputs</Fmmu>
+        <Sm DefaultSize="4" StartAddress="#x1C00" ControlByte="0" Enable="1">Inputs</Sm>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a00</Index>
+          <Name>Channel 0</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a01</Index>
+          <Name>Channel 1</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a02</Index>
+          <Name>Channel 2</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a03</Index>
+          <Name>Channel 3</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a04</Index>
+          <Name>Channel 4</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>5</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a05</Index>
+          <Name>Channel 5</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>6</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a06</Index>
+          <Name>Channel 6</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>7</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a07</Index>
+          <Name>Channel 7</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>8</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a08</Index>
+          <Name>Channel 8</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>9</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a09</Index>
+          <Name>Channel 9</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>10</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a0a</Index>
+          <Name>Channel 10</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>11</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a0b</Index>
+          <Name>Channel 11</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>12</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a0c</Index>
+          <Name>Channel 12</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>13</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a0d</Index>
+          <Name>Channel 13</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>14</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a0e</Index>
+          <Name>Channel 14</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>15</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a0f</Index>
+          <Name>Channel 15</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>16</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a10</Index>
+          <Name>Channel 16</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>17</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a11</Index>
+          <Name>Channel 17</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>18</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a12</Index>
+          <Name>Channel 18</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>19</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a13</Index>
+          <Name>Channel 19</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>20</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a14</Index>
+          <Name>Channel 20</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>21</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a15</Index>
+          <Name>Channel 21</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>22</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a16</Index>
+          <Name>Channel 22</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>23</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a17</Index>
+          <Name>Channel 23</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>24</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a18</Index>
+          <Name>Channel 24</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>25</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a19</Index>
+          <Name>Channel 25</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>26</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a1a</Index>
+          <Name>Channel 26</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>27</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a1b</Index>
+          <Name>Channel 27</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>28</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a1c</Index>
+          <Name>Channel 28</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>29</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a1d</Index>
+          <Name>Channel 29</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>30</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a1e</Index>
+          <Name>Channel 30</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>31</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0" Mandatory="1">
+          <Index>#x1a1f</Index>
+          <Name>Channel 31</Name>
+          <Entry>
+            <Index>#x6000</Index>
+            <SubIndex>32</SubIndex>
+            <BitLen>1</BitLen>
+            <Name>Input</Name>
+            <DataType>BOOL</DataType>
+          </Entry>
+        </TxPdo>
+        <Eeprom>
+          <ByteSize>2048</ByteSize>
+          <ConfigData>05030300</ConfigData>
+        </Eeprom>
+      </Device>
+      <Device Physics="YY">
+        <Type ProductCode="#x00001102" RevisionNo="#x00000001">NEIO B1102</Type>
+        <Name LcId="1033"><![CDATA[NEIO B1102, 32Ch. Digital Input 24V, Sourcing]]></Name>
+        <Name LcId="1031"><![CDATA[NEIO B1102, 32Ch. Digital Eigang 24V, Sourcing]]></Name>
+        <URL LcId="1033"><![CDATA[http://www.nexcom.com/]]></URL>
+        <URL LcId="1031"><![CDATA[http://www.nexcom.com/]]></URL>
+        <GroupType>B1100</GroupType>
+        <Fmmu>Inputs</Fmmu>
+        <Sm StartAddress="#x1000" ControlByte="0" Enable="1">Inputs</Sm>
+        <TxPdo Fixed="1" Sm="0">
+          <Index>#x1600</Index>
+          <Name>Byte 0</Name>
+          <Entry>
+            <Index>#x3001</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Input</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0">
+          <Index>#x1601</Index>
+          <Name>Byte 1</Name>
+          <Entry>
+            <Index>#x3001</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Input</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0">
+          <Index>#x1602</Index>
+          <Name>Byte 2</Name>
+          <Entry>
+            <Index>#x3001</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Input</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </TxPdo>
+        <TxPdo Fixed="1" Sm="0">
+          <Index>#x1603</Index>
+          <Name>Byte 3</Name>
+          <Entry>
+            <Index>#x3001</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Input</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </TxPdo>
+        <Dc>
+          <OpMode>
+            <Name>DcOff</Name>
+            <Desc>DC unused</Desc>
+            <AssignActivate>#x0000</AssignActivate>
+          </OpMode>
+          <OpMode>
+            <Name>DcSync</Name>
+            <Desc>DC for synchronization</Desc>
+            <AssignActivate>#x0100</AssignActivate>
+            <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+            <ShiftTimeSync0>0</ShiftTimeSync0>
+          </OpMode>
+        </Dc>
+        <Eeprom>
+          <ByteSize>2048</ByteSize>
+          <ConfigData>040F004410270000</ConfigData>
+        </Eeprom>
+      </Device>
+    </Devices>
+  </Descriptions>
+</EtherCATInfo>

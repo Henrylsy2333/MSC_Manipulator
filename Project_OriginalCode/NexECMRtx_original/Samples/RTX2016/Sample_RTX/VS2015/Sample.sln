@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleNexECMRtx", "SampleNexECMRtx\SampleNexECMRtx.vcxproj", "{E0B19889-11F2-4020-9BD2-334CD98E7810}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleCiA402P2p", "SampleCiA402P2p\SampleCiA402P2p.vcxproj", "{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleNexECMRtxCSP", "SampleNexECMRtxCSP\SampleNexECMRtxCSP.vcxproj", "{C1039199-0F4D-40CC-A6DC-A60357C57F20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RwDriveParamNexECMRtx", "RwDriveParamNexECMRtx\RwDriveParamNexECMRtx.vcxproj", "{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RwDioNexECMRtx", "RwDioNexECMRtx\RwDioNexECMRtx.vcxproj", "{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		RtssDebug|x86 = RtssDebug|x86
+		RtssRelease|x86 = RtssRelease|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.Debug|x86.Build.0 = Debug|Win32
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.Release|x86.ActiveCfg = Release|Win32
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.Release|x86.Build.0 = Release|Win32
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.RtssDebug|x86.ActiveCfg = RtssDebug|Win32
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.RtssDebug|x86.Build.0 = RtssDebug|Win32
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.RtssRelease|x86.ActiveCfg = RtssRelease|Win32
+		{E0B19889-11F2-4020-9BD2-334CD98E7810}.RtssRelease|x86.Build.0 = RtssRelease|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.Debug|x86.Build.0 = Debug|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.Release|x86.ActiveCfg = Release|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.Release|x86.Build.0 = Release|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.RtssDebug|x86.ActiveCfg = RtssDebug|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.RtssDebug|x86.Build.0 = RtssDebug|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.RtssRelease|x86.ActiveCfg = RtssRelease|Win32
+		{A5EDC1C6-D128-4AFD-AD3F-F535DE6F98D2}.RtssRelease|x86.Build.0 = RtssRelease|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.Debug|x86.Build.0 = Debug|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.Release|x86.ActiveCfg = Release|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.Release|x86.Build.0 = Release|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.RtssDebug|x86.ActiveCfg = RtssDebug|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.RtssDebug|x86.Build.0 = RtssDebug|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.RtssRelease|x86.ActiveCfg = RtssRelease|Win32
+		{C1039199-0F4D-40CC-A6DC-A60357C57F20}.RtssRelease|x86.Build.0 = RtssRelease|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.Debug|x86.Build.0 = Debug|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.Release|x86.ActiveCfg = Release|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.Release|x86.Build.0 = Release|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.RtssDebug|x86.ActiveCfg = RtssDebug|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.RtssDebug|x86.Build.0 = RtssDebug|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.RtssRelease|x86.ActiveCfg = RtssRelease|Win32
+		{4DB08126-0C4D-41BA-8F8B-31F8C3A3DCF5}.RtssRelease|x86.Build.0 = RtssRelease|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.Debug|x86.Build.0 = Debug|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.Release|x86.ActiveCfg = Release|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.Release|x86.Build.0 = Release|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.RtssDebug|x86.ActiveCfg = RtssDebug|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.RtssDebug|x86.Build.0 = RtssDebug|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.RtssRelease|x86.ActiveCfg = RtssRelease|Win32
+		{D7C84737-6D3F-4B33-A95C-1D34922FB5F2}.RtssRelease|x86.Build.0 = RtssRelease|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,123 @@
+<EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
+  <Vendor>
+    <Id>#x0505</Id>
+    <Name>ANCA Motion Pty Ltd</Name>
+    <ImageData16x14>424DF60000000000000076000000280000001000000010000000010004000000000080000000C40E0000C40E000000000000000000000000000000008000008000000080800080000000800080008080000080808000C0C0C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFECCFFFCCEFFFCC8F8CCFFFCCCFFFCC8FFCC8FF8CCFFFCCCFFCCEFF8CC8FFECCFFCCCFFFCC8FF8CC8F8CCFFFCCCFFFCC8F8CCC88CCCC8CCC8FFCCECCCC88CCCCFFFFFFFF8FFFF88FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF</ImageData16x14>
+  </Vendor>
+  <Descriptions>
+    <Groups>
+      <Group>
+        <Type>DRIVES</Type>
+        <Name LcId="1033">Servo Drives</Name>
+        <Image16x14>DRIVE</Image16x14>
+      </Group>
+    </Groups>
+    <Devices>
+      <Device Physics="YY">
+        <Type ProductCode="23" RevisionNo="#x02260005">AMD2000 9A Servo Drive CoE</Type>
+        <Name LcId="1033">AMD2000 9A Servo Drive CoE
+				</Name>
+        <GroupType>DRIVES</GroupType>
+        <Fmmu>Outputs</Fmmu>
+        <Fmmu>Inputs</Fmmu>
+        <Sm MinSize="40" MaxSize="2048" DefaultSize="256" StartAddress="#x1800" ControlByte="#x26" Enable="1">MBoxOut</Sm>
+        <Sm MinSize="40" MaxSize="2048" DefaultSize="1280" StartAddress="#x1E00" ControlByte="#x22" Enable="1">MBoxIn</Sm>
+        <Sm StartAddress="#x1000" ControlByte="#x64" Enable="1">Outputs</Sm>
+        <Sm StartAddress="#x1400" ControlByte="#x20" Enable="1">Inputs</Sm>
+        <RxPdo Mandatory="1" Sm="2">
+          <Index>#x1600</Index>
+          <Name>RPDO List</Name>
+          <Entry>
+            <Index>#x6040</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>Control word</Name>
+            <DataType>UINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x607A</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Target position</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x60FF</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Target velocity</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6060</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Modes of operation</Name>
+            <DataType>INT</DataType>
+          </Entry>
+        </RxPdo>
+        <TxPdo Mandatory="1" Sm="3">
+          <Index>#x1A00</Index>
+          <Name>TPDO List</Name>
+          <Entry>
+            <Index>#x6041</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>Status word</Name>
+            <DataType>UINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6064</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>32</BitLen>
+            <Name>Position actual value</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x606C</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>16</BitLen>
+            <Name>Velocity actual value</Name>
+            <DataType>DINT</DataType>
+          </Entry>
+          <Entry>
+            <Index>#x6061</Index>
+            <SubIndex>0</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Modes of operation display</Name>
+            <DataType>INT</DataType>
+          </Entry>
+        </TxPdo>
+        <Mailbox>
+		           <FoE/>
+          <CoE DS402Channels="1" PdoConfig="1">
+            <InitCmd>
+              <Transition>PS</Transition>
+              <Index>#x6060</Index>
+              <SubIndex>0</SubIndex>
+              <Data>08</Data>
+              <Comment>Set modes of operation</Comment>
+            </InitCmd>
+          </CoE>
+        </Mailbox>
+        <Dc>
+          <OpMode>
+            <Name>DcSync</Name>
+            <Desc>DC for synchronization</Desc>
+            <AssignActivate>#x0730</AssignActivate>
+            <CycleTimeSync0>4000000</CycleTimeSync0>
+            <ShiftTimeSync0>0</ShiftTimeSync0>
+            <CycleTimeSync1>4000000</CycleTimeSync1>
+            <ShiftTimeSync1>0</ShiftTimeSync1>
+          </OpMode>
+        </Dc>
+        <Eeprom AssignToPdi="0">
+          <ByteSize>2048</ByteSize>
+          <ConfigData>0804006664000000</ConfigData>
+          <!--  Bootstrap contains:  Receive Mailbox Offset  |  Receive Mailbox Size | Bootstrap Transmit Mailbox Offset | Bootstrap Transmit Mailbox Size     -->
+          <BootStrap>001E000500180001</BootStrap>
+        </Eeprom>
+      </Device>
+    </Devices>
+  </Descriptions>
+</EtherCATInfo>

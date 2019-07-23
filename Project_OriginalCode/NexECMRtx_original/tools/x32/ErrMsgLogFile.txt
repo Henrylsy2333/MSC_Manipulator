@@ -1,0 +1,99 @@
+NexECM->GetNetworkTopology   Error!2017/4/10 16:43:56
+nesi->find device and put to buffer  device not found!2017/4/10 16:44:54
+nesi->find device and put to buffer  device not found!2017/4/10 16:44:54
+nesi->find device and put to buffer  device not found!2017/4/10 16:44:54
+nesi->find device and put to buffer  device not found!2017/4/10 16:44:54
+nesi->find device and put to buffer  device not found!2017/4/10 16:44:54
+nesi->find device and put to buffer  device not found!2017/4/10 16:44:54
+nesi->find device and put to buffer  device not found!2017/4/10 16:44:54
+get device fmmu count  unknown device!2017/4/10 16:44:54
+get device sync manager count  unknown device!2017/4/10 16:44:54
+get device pdo count  unknown device!2017/4/10 16:44:54
+get ChannelInfo cnt  unknown device!2017/4/10 16:44:54
+get profileNo  unknown device!2017/4/10 16:44:54
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:44:54
+get dictionary datatypedata  unknown device!2017/4/10 16:44:54
+get mailbox Info  unknown device!2017/4/10 16:44:54
+get dc opmode cnt  unknown device!2017/4/10 16:44:54
+get eeprom data  unknown device!2017/4/10 16:44:54
+get device fmmu count  unknown device!2017/4/10 16:44:54
+get device sync manager count  unknown device!2017/4/10 16:44:54
+get device pdo count  unknown device!2017/4/10 16:44:54
+get ChannelInfo cnt  unknown device!2017/4/10 16:44:54
+get profileNo  unknown device!2017/4/10 16:44:54
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:44:54
+get dictionary datatypedata  unknown device!2017/4/10 16:44:54
+get mailbox Info  unknown device!2017/4/10 16:44:54
+get dc opmode cnt  unknown device!2017/4/10 16:44:54
+get eeprom data  unknown device!2017/4/10 16:44:54
+get device fmmu count  unknown device!2017/4/10 16:44:54
+get device sync manager count  unknown device!2017/4/10 16:44:54
+get device pdo count  unknown device!2017/4/10 16:44:54
+get ChannelInfo cnt  unknown device!2017/4/10 16:44:54
+get profileNo  unknown device!2017/4/10 16:44:54
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:44:54
+get dictionary datatypedata  unknown device!2017/4/10 16:44:54
+get mailbox Info  unknown device!2017/4/10 16:44:54
+get dc opmode cnt  unknown device!2017/4/10 16:44:54
+get eeprom data  unknown device!2017/4/10 16:44:54
+get device fmmu count  unknown device!2017/4/10 16:44:54
+get device sync manager count  unknown device!2017/4/10 16:44:54
+get device pdo count  unknown device!2017/4/10 16:44:54
+get ChannelInfo cnt  unknown device!2017/4/10 16:44:54
+get profileNo  unknown device!2017/4/10 16:44:54
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:44:54
+get dictionary datatypedata  unknown device!2017/4/10 16:44:54
+get mailbox Info  unknown device!2017/4/10 16:44:54
+get dc opmode cnt  unknown device!2017/4/10 16:44:54
+get eeprom data  unknown device!2017/4/10 16:44:54
+get device fmmu count  unknown device!2017/4/10 16:44:54
+get device sync manager count  unknown device!2017/4/10 16:44:54
+get device pdo count  unknown device!2017/4/10 16:44:54
+get ChannelInfo cnt  unknown device!2017/4/10 16:44:54
+get profileNo  unknown device!2017/4/10 16:44:54
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:44:54
+get dictionary datatypedata  unknown device!2017/4/10 16:44:54
+get mailbox Info  unknown device!2017/4/10 16:44:54
+get dc opmode cnt  unknown device!2017/4/10 16:44:54
+get eeprom data  unknown device!2017/4/10 16:44:54
+get device fmmu count  unknown device!2017/4/10 16:44:54
+get device sync manager count  unknown device!2017/4/10 16:44:54
+get device pdo count  unknown device!2017/4/10 16:44:54
+get ChannelInfo cnt  unknown device!2017/4/10 16:44:54
+get profileNo  unknown device!2017/4/10 16:44:54
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:44:54
+get dictionary datatypedata  unknown device!2017/4/10 16:44:54
+get mailbox Info  unknown device!2017/4/10 16:44:54
+get dc opmode cnt  unknown device!2017/4/10 16:44:54
+get eeprom data  unknown device!2017/4/10 16:44:54
+get device fmmu count  unknown device!2017/4/10 16:44:54
+get device sync manager count  unknown device!2017/4/10 16:44:54
+get device pdo count  unknown device!2017/4/10 16:44:54
+get ChannelInfo cnt  unknown device!2017/4/10 16:44:54
+get profileNo  unknown device!2017/4/10 16:44:54
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:44:54
+get dictionary datatypedata  unknown device!2017/4/10 16:44:54
+get mailbox Info  unknown device!2017/4/10 16:44:54
+get dc opmode cnt  unknown device!2017/4/10 16:44:54
+get eeprom data  unknown device!2017/4/10 16:44:54
+nesi->find device and put to buffer  device not found!2017/4/10 16:48:11
+get device fmmu count  unknown device!2017/4/10 16:48:11
+get device sync manager count  unknown device!2017/4/10 16:48:11
+get device pdo count  unknown device!2017/4/10 16:48:11
+get ChannelInfo cnt  unknown device!2017/4/10 16:48:11
+get profileNo  unknown device!2017/4/10 16:48:11
+get dictionary DataTypeCnt  unknown device!2017/4/10 16:48:11
+get dictionary datatypedata  unknown device!2017/4/10 16:48:11
+get mailbox Info  unknown device!2017/4/10 16:48:11
+get dc opmode cnt  unknown device!2017/4/10 16:48:11
+get eeprom data  unknown device!2017/4/10 16:48:11
+NexECM->GetNetworkTopology   Error!2017/4/19 17:28:53
+NexECM->GetNetworkTopology   Error!2017/4/19 17:28:57
+NexECM->GetNetworkTopology   Error!2017/4/19 17:29:09
+NexECM->GetNetworkTopology   Error!2017/4/19 17:29:26
+NexECM->GetNetworkTopology   Error!2017/4/19 17:29:39
+NexECM->GetNetworkTopology   Error!2017/4/19 17:29:52
+NexECM->GetNetworkTopology   Error!2017/4/19 17:30:02
+NexECM->GetNetworkTopology   Error!2017/4/19 17:30:04
+NexECM->GetNetworkTopology   Error!2017/4/19 17:30:29
+NexECM->GetNetworkTopology   Error!2017/4/19 17:30:43

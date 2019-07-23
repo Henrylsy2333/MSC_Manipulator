@@ -1,0 +1,849 @@
+<?xml version="1.0"?>
+<EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
+	<Vendor>
+		<Id>#x01DD</Id>
+		<Name>Delta Electronics, Inc.</Name>
+		<ImageData16x14>424DB6030000000000003600000028000000100000000E000000010020000000000000000000C40E0000C40E00000000000000000000FBFBF4FFFDFAF3FFFDFAF3FFFDFAF3FFFDFAF3FFFDFAF3FFFEFBF6FFFFFEFBFFFEFDFBFFFEFBF7FFFEFCF7FFFEFDFBFFFFFFFEFFFFFFFFFFFFFFFFFFFFFFFFFFF2D69CFFEECF89FFEECD84FFEDCD84FFEECD85FFEFD08BFFF3DDAAFFFFFFFFFFFFFFFFFFF4DEB0FFF4DFB3FFF9EED5FFFDFAF2FFFFFEFDFFFFFFFFFFFFFFFFFFEAC062FFE4B141FFE3AE38FFE3AE3BFFE6B750FFEDCB7FFFF6E2B9FFFFFFFFFFFFFFFFFFF5E1B5FFEFCF8BFFEDCA7FFFF3DCAAFFFCF4E5FFFFFDFCFFFFFFFFFFE5B958FFE2AB32FFE1A82AFFE4B142FFEECF8AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6E5BFFFEFCF8BFFE9C268FFF1D79BFFFCF4E6FFFFFEFDFFE5B958FFE2AB33FFE2AC35FFECC97CFFFFFFFFFFF2DAA5FFEBC470FFE7BA58FFE7BC5DFFECCB80FFFFFFFFFFF6E5C0FFECC877FFE9BC5DFFF3DDADFFFEF9F2FFE5B958FFE3AC35FFE6B54BFFFFFFFFFFF3DEAEFFE9BF61FFE5B447FFE7BB5AFFE6B954FFE4B447FFECC87CFFFFFFFFFFF2DBA6FFE6B64EFFEAC470FFFAEFD8FFE5B95AFFE3AD38FFE9BF64FFFFFFFFFFEECE88FFE4B447FFEBC878FFF5E2B7FFF2DBA7FFE8BD5FFFE7B853FFF4DDABFFFFFFFFFFE7BB5AFFE5B54DFFF4DFB2FFEAC069FFE3AE3CFFEBC470FFFFFFFFFFEBC877FFE4B449FFF1D9A2FFFDF8EEFFFAF0DCFFEDCA7DFFE5B44AFFF1D69BFFFFFFFFFFE9BE63FFE3B040FFEFD291FFECCE8BFFE4B244FFE9C269FFFFFFFFFFEDCC84FFE4B548FFEDCC82FFF7E7C3FFF4DFB2FFE9C066FFE5B851FFF2DBA8FFFFFFFFFFE8BC5BFFE4AF3BFFEDCC81FFF4E3B9FFE8BD5DFFE7BA57FFFFFFFFFFF2DCA9FFE8BC5BFFE5B54BFFE9BF64FFE7BC5AFFE5B347FFEBC675FFF6E7C4FFF3DDAEFFE4B346FFE3AE37FFECCA7EFFFBF4E4FFF0D392FFE6B852FFEFD08CFFFFFFFFFFF0D79EFFE9C066FFE5B750FFE6B854FFEBC776FFF4E1B5FFFFFFFFFFEDCA7EFFE2AB32FFE3AD36FFECCA7EFFFBFBF9FFF9EED5FFEDCA81FFEAC066FFF2D8A1FFFFFFFFFFFFFFFFFFF4E0B2FFF5E1B7FFFFFFFFFFFFFFFFFFEFD291FFE4B345FFE1A82AFFE3AC36FFECCA7EFFFBFBFBFFFEFCF7FFF9EDD3FFF0D391FFECC776FFF0D496FFF7E7C4FFFFFFFFFFFFFFFFFFF5E3BAFFEDCC82FFE5B44CFFE2AB34FFE2AA30FFE4AF3EFFEDCC83FFFDFDFDFFFBFBFBFFFBFBF9FFFBF3DFFFF4DFB4FFEDD091FFF1D79EFFFFFFFFFFFFFFFFFFEDCE83FFE6BB5FFFE6B951FFE6B451FFE6B451FFE6BB58FFEDD097FF</ImageData16x14>
+	</Vendor>
+	<Descriptions>
+		<Groups>
+			<Group SortOrder="372">
+				<Type>Measuring</Type>
+				<Name LcId="1033">Measuring Modules( R1-EC561x)</Name>
+				<ImageData16x14>424DB6030000000000003600000028000000100000000E000000010020000000000000000000C40E0000C40E00000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFF94450CFF94450CFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFF94450CFFFFFFFFFFFFFFFFFF94450CFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFF94450CFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFFFFFFFFFF5B105FFF5B105FFFFFFFFFFF5B105FFF9F9F5FFF5B105FFFCFCF8FFFFFFFFFFFFFFFFFFF5B105FFFFFFFFFFFFFFFFFFFFFFFFFFF5B105FFF5B105FFFFFFFFFFF5B105FFFFFFFFFFF5B105FFF5B105FFF7F6F3FFF5B105FFFDFBF6FFF5B105FFF5B105FFF5B105FFFFFFFFFFF5B105FFF5B105FFF5B105FFF5B105FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5B105FFF9F9F7FFF5B105FFFDFCF8FFFFFFFFFFFFFFFFFFF5B105FFFFFFFFFFF5B105FFF5B105FFF5B105FFF5B105FFFFFFFFFFF5B105FFF5B105FFFFFFFFFFF5B105FFF9F9F7FFF5B105FFFCFCFAFFF5B105FFF5B105FFF5B105FFFFFFFFFFF5B105FFF5B105FFF5B105FFF5B105FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5B105FFF9F9F7FFF5B105FFFCFCFAFFFDFCF9FFFCFAF3FFF5B105FFFFFFFFFFFFFFFFFFFFFFFFFFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FFF5B105FF</ImageData16x14>
+			</Group>
+		</Groups>
+		<Devices>
+            <Device Physics="KK">
+                <Type ProductCode="#x00005614" RevisionNo="#x00100000">R1-EC5614</Type>
+                <Name LcId="1033"><![CDATA[R1-EC5614 MPG Module With 4-axis select Functionr Module]]></Name>
+                <Info>
+                    <Electrical>
+                        <EBusCurrent>180</EBusCurrent>
+                    </Electrical>
+                    <Mailbox>
+                        <Timeout>
+                            <RequestTimeout>100</RequestTimeout>
+                            <ResponseTimeout>2000</ResponseTimeout>
+                        </Timeout>
+                    </Mailbox>
+                </Info>
+                <GroupType>Measuring</GroupType>
+                <Profile>
+                    <ProfileNo>404</ProfileNo>
+                    <ChannelCount>1</ChannelCount>
+                    <Dictionary>
+                        <DataTypes>
+                            <DataType>
+                                <Name>BIT2</Name>
+                                <BitSize>0</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>BIT3</Name>
+                                <BitSize>0</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>BOOL</Name>
+                                <BitSize>1</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>DINT</Name>
+                                <BitSize>32</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>INT</Name>
+                                <BitSize>16</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>UDINT</Name>
+                                <BitSize>32</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>UINT</Name>
+                                <BitSize>16</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>USINT</Name>
+                                <BitSize>8</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>STRING(0)</Name>
+                                <BitSize>0</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>STRING(4)</Name>
+                                <BitSize>32</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>STRING(8)</Name>
+                                <BitSize>64</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>STRING(50)</Name>
+                                <BitSize>400</BitSize>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1018</Name>
+                                <BitSize>144</BitSize>
+                                <SubItem>
+                                    <SubIdx>0</SubIdx>
+                                    <Name>SubIndex 000</Name>
+                                    <Type>USINT</Type>
+                                    <BitSize>8</BitSize>
+                                    <BitOffs>0</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                        <Category>o</Category>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>1</SubIdx>
+                                    <Name>Vendor ID</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>16</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                        <Category>o</Category>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>2</SubIdx>
+                                    <Name>Product code</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>48</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                        <Category>o</Category>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>3</SubIdx>
+                                    <Name>Revision</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>80</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                        <Category>o</Category>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>4</SubIdx>
+                                    <Name>Serial number</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>112</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                        <Category>o</Category>
+                                    </Flags>
+                                </SubItem>
+                            </DataType>
+                            <DataType>
+                                <Name>DT160X</Name>
+                                <BitSize>272</BitSize>
+                                <SubItem>
+                                    <SubIdx>0</SubIdx>
+                                    <Name>Number of Objects</Name>
+                                    <Type>USINT</Type>
+                                    <BitSize>8</BitSize>
+                                    <BitOffs>0</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>1</SubIdx>
+                                    <Name>Mapping entry (1)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>16</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>2</SubIdx>
+                                    <Name>Mapping entry (2)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>48</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>3</SubIdx>
+                                    <Name>Mapping entry (3)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>80</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>4</SubIdx>
+                                    <Name>Mapping entry (4)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>112</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>5</SubIdx>
+                                    <Name>Mapping entry (5)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>144</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>6</SubIdx>
+                                    <Name>Mapping entry (6)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>176</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>7</SubIdx>
+                                    <Name>Mapping entry (7)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>208</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>8</SubIdx>
+                                    <Name>Mapping entry (8)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>240</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1A0X</Name>
+                                <BitSize>272</BitSize>
+                                <SubItem>
+                                    <SubIdx>0</SubIdx>
+                                    <Name>Number of Objects</Name>
+                                    <Type>USINT</Type>
+                                    <BitSize>8</BitSize>
+                                    <BitOffs>0</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>1</SubIdx>
+                                    <Name>Mapping entry (1)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>16</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>2</SubIdx>
+                                    <Name>Mapping entry (2)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>48</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>3</SubIdx>
+                                    <Name>Mapping entry (3)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>80</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>4</SubIdx>
+                                    <Name>Mapping entry (4)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>112</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>5</SubIdx>
+                                    <Name>Mapping entry (5)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>144</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>6</SubIdx>
+                                    <Name>Mapping entry (6)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>176</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>7</SubIdx>
+                                    <Name>Mapping entry (7)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>208</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>8</SubIdx>
+                                    <Name>Mapping entry (8)</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>240</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1C00ARR</Name>
+                                <BaseType>USINT</BaseType>
+                                <BitSize>32</BitSize>
+                                <ArrayInfo>
+                                    <LBound>1</LBound>
+                                    <Elements>4</Elements>
+                                </ArrayInfo>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1C00</Name>
+                                <BitSize>48</BitSize>
+                                <SubItem>
+                                    <SubIdx>0</SubIdx>
+                                    <Name>Number of SyncManager channels</Name>
+                                    <Type>USINT</Type>
+                                    <BitSize>8</BitSize>
+                                    <BitOffs>0</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <Name>SyncManager type</Name>
+                                    <Type>DT1C00ARR</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>16</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1C1XARR</Name>
+                                <BaseType>UINT</BaseType>
+                                <BitSize>32</BitSize>
+                                    <ArrayInfo>
+                                        <LBound>1</LBound>
+                                        <Elements>2</Elements>
+                                    </ArrayInfo>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1C1X</Name>
+                                <BitSize>48</BitSize>
+                                <SubItem>
+                                    <SubIdx>0</SubIdx>
+                                    <Name>Number of assigned PDOs</Name>
+                                    <Type>USINT</Type>
+                                    <BitSize>8</BitSize>
+                                    <BitOffs>0</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <Name>Index of assigned PDO</Name>
+                                    <Type>DT1C1XARR</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>16</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1C32</Name>
+                                <BitSize>416</BitSize>
+                                <SubItem>
+                                    <SubIdx>0</SubIdx>
+                                    <Name>SubIndex 000</Name>
+                                    <Type>USINT</Type>
+                                    <BitSize>8</BitSize>
+                                    <BitOffs>0</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>1</SubIdx>
+                                    <Name>Sync mode</Name>
+                                    <Type>UINT</Type>
+                                    <BitSize>16</BitSize>
+                                    <BitOffs>16</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>2</SubIdx>
+                                    <Name>Cycle time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>32</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>4</SubIdx>
+                                    <Name>Sync modes supported</Name>
+                                    <Type>UINT</Type>
+                                    <BitSize>16</BitSize>
+                                    <BitOffs>96</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                    <SubItem>
+                                    <SubIdx>5</SubIdx>
+                                    <Name>Minimum cycle time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>112</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>6</SubIdx>
+                                    <Name>Calc and copy time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>144</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>8</SubIdx>
+                                    <Name>Get cycle time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>208</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>9</SubIdx>
+                                    <Name>Delay time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>240</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>10</SubIdx>
+                                    <Name>Sync0 time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>272</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>11</SubIdx>
+                                    <Name>Cycle exceeded counter</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>304</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>12</SubIdx>
+                                    <Name>SM event missed counter</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>336</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>32</SubIdx>
+                                    <Name>Sync error</Name>
+                                    <Type>BOOL</Type>
+                                    <BitSize>1</BitSize>
+                                    <BitOffs>400</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                            </DataType>
+                            <DataType>
+                                <Name>DT1C33</Name>
+                                <BitSize>416</BitSize>
+                                <SubItem>
+                                    <SubIdx>0</SubIdx>
+                                    <Name>SubIndex 000</Name>
+                                    <Type>USINT</Type>
+                                    <BitSize>8</BitSize>
+                                    <BitOffs>0</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>1</SubIdx>
+                                    <Name>Sync mode</Name>
+                                    <Type>UINT</Type>
+                                    <BitSize>16</BitSize>
+                                    <BitOffs>16</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>2</SubIdx>
+                                    <Name>Cycle time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>32</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>4</SubIdx>
+                                    <Name>Sync modes supported</Name>
+                                    <Type>UINT</Type>
+                                    <BitSize>16</BitSize>
+                                    <BitOffs>96</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>5</SubIdx>
+                                    <Name>Minimum cycle time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>112</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>6</SubIdx>
+                                    <Name>Calc and copy time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>144</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>8</SubIdx>
+                                    <Name>Get cycle time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>208</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>9</SubIdx>
+                                    <Name>Delay time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>240</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>10</SubIdx>
+                                    <Name>Sync0 time</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>272</BitOffs>
+                                    <Flags>
+                                        <Access>rw</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>11</SubIdx>
+                                    <Name>SM-Event Missed</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>304</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>12</SubIdx>
+                                    <Name>Cycle Time Too Small</Name>
+                                    <Type>UDINT</Type>
+                                    <BitSize>32</BitSize>
+                                    <BitOffs>336</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                                <SubItem>
+                                    <SubIdx>32</SubIdx>
+                                    <Name>Sync error</Name>
+                                    <Type>BOOL</Type>
+                                    <BitSize>1</BitSize>
+                                    <BitOffs>400</BitOffs>
+                                    <Flags>
+                                        <Access>ro</Access>
+                                    </Flags>
+                                </SubItem>
+                            </DataType>
+                        </DataTypes>
+                        <Objects>
+                            <Object>
+                                <Index>#x1000</Index>
+                                <Name>Device type</Name>
+                                <Type>UDINT</Type>
+                                <BitSize>32</BitSize>
+                                <Info>
+                                    <DefaultData>92010204</DefaultData>
+                                </Info>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1001</Index>
+                                <Name>Error Register</Name>
+                                <Type>USINT</Type>
+                                <BitSize>8</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1008</Index>
+                                <Name>Device name</Name>
+                                <Type>STRING(8)</Type>
+                                <BitSize>64</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x100A</Index>
+                                <Name>Software version</Name>
+                                <Type>STRING(4)</Type>
+                                <BitSize>32</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1018</Index>
+                                <Name>Identity</Name>
+                                <Type>DT1018</Type>
+                                <BitSize>144</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1600</Index>
+                                <Name>RxPDO-Map Outputs</Name>
+                                <Type>DT160X</Type>
+                                <BitSize>272</BitSize>
+                                <Flags>
+                                    <Access>rw</Access>
+                                    <Category>o</Category>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1A00</Index>
+                                <Name>TxPDO-Map Outputs</Name>
+                                <Type>DT1A0X</Type>
+                                <BitSize>272</BitSize>
+                                <Flags>
+                                    <Access>rw</Access>
+                                    <Category>o</Category>
+                                </Flags>
+                            </Object>							
+                            <Object>
+                                <Index>#x1C00</Index>
+                                <Name>Sync manager type</Name>
+                                <Type>DT1C00</Type>
+                                <BitSize>48</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1C12</Index>
+                                <Name>RxPDO assign</Name>
+                                <Type>DT1C1X</Type>
+                                <BitSize>48</BitSize>
+                                <Flags>
+                                    <Access>rw</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1C13</Index>
+                                <Name>TxPDO assign</Name>
+                                <Type>DT1C1X</Type>
+                                <BitSize>48</BitSize>
+                                <Flags>
+                                    <Access>rw</Access>
+                                </Flags>
+                            </Object>						
+                            <Object>
+                                <Index>#x1C32</Index>
+                                <Name>SM output parameter</Name>
+                                <Type>DT1C32</Type>
+                                <BitSize>400</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x1C33</Index>
+                                <Name>SM input parameter</Name>
+                                <Type>DT1C33</Type>
+                                <BitSize>400</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                </Flags>
+                            </Object>
+							<Object>
+                                <Index>#x2000</Index>
+                                <Name>Set MPG Mode</Name>
+                                <Type>USINT</Type>
+                                <BitSize>8</BitSize>
+                                <Flags>
+                                    <Access>rw</Access>
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x200A</Index>
+                                <Name>MPG value</Name>
+                                <Type>DINT</Type>
+                                <BitSize>32</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                <PdoMapping>T</PdoMapping> 
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x200B</Index>
+                                <Name>MPG Input Status</Name>
+                                <Type>UINT</Type>
+                                <BitSize>16</BitSize>
+                                <Flags>
+                                    <Access>ro</Access>
+                                <PdoMapping>T</PdoMapping> 
+                                </Flags>
+                            </Object>
+                            <Object>
+                                <Index>#x200C</Index>
+                                <Name>MPG Value Clear</Name>
+                                <Type>USINT</Type>
+                                <BitSize>8</BitSize>
+                                <Flags>
+                                    <Access>rw</Access>
+                                </Flags>
+                            </Object>
+                         </Objects>
+                    </Dictionary>
+                </Profile>
+                <Fmmu>Inputs</Fmmu>
+                <Fmmu>MBoxState</Fmmu>
+                <Sm MinSize="128" MaxSize="128" DefaultSize="128" StartAddress="#x1000" ControlByte="#x26" Enable="1">MBoxOut</Sm>
+                <Sm MinSize="128" MaxSize="128" DefaultSize="128" StartAddress="#x1080" ControlByte="#x22" Enable="1">MBoxIn</Sm>
+                <Sm MinSize="1" MaxSize="64" DefaultSize="6" StartAddress="#x1100" ControlByte="#x24" Enable="0">Outputs</Sm>
+                <Sm MinSize="1" MaxSize="64" DefaultSize="6" StartAddress="#x11C0" ControlByte="#x20" Enable="1">Inputs</Sm>
+                <TxPdo Fixed="1" Mandatory="1" Sm="3">
+                    <Index>#x1A00</Index>
+                    <Name>Input state</Name>
+                    <Entry>
+                        <Index>#x200A</Index>
+                        <SubIndex>0</SubIndex>
+                        <BitLen>32</BitLen>
+                        <Name>MPG value</Name>
+                        <DataType>DINT</DataType>
+                    </Entry>
+                    <Entry>
+                        <Index>#x200B</Index>
+                        <SubIndex>0</SubIndex>
+                        <BitLen>16</BitLen>
+                        <Name>Input Status</Name>
+                        <DataType>UINT</DataType>
+                    </Entry>                   
+                </TxPdo>
+                <Mailbox DataLinkLayer="true">
+                    <CoE SdoInfo="1"/>
+                </Mailbox>
+				<Dc>
+                    <OpMode>
+                        <Name>Free Run</Name>
+                        <Desc>Free Run</Desc>
+                        <AssignActivate>#x0</AssignActivate>
+                    </OpMode>
+                    <OpMode>
+                        <Name>DC</Name>
+                        <Desc>DC-Synchronous</Desc>
+                        <AssignActivate>#x300</AssignActivate>
+                        <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+                        <ShiftTimeSync0>0</ShiftTimeSync0>
+                    </OpMode>
+                </Dc>				
+                <Eeprom>
+                    <ByteSize>2048</ByteSize>
+                    <ConfigData>0500030464000000</ConfigData>
+                </Eeprom>
+                <ImageData16x14>424DD6020000000000003600000028000000100000000E0000000100180000000000A0020000C40E0000C40E00000000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF94450C94450C94450CFFFFFF94450C94450C94450CFFFFFF94450C94450C94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFF94450CFFFFFF94450CFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFF94450CFFFFFF94450C94450C94450CFFFFFF94450C94450C94450CFFFFFFFFFFFF94450CFFFFFFFFFFFF94450C94450C94450CFFFFFF94450CFFFFFFFFFFFFFFFFFF94450CFFFFFFFFFFFFFFFFFF94450C94450CFFFFFFFFFFFF94450CFFFFFF94450CFFFFFF94450C94450C94450CFFFFFF94450C94450C94450CFFFFFFFFFFFF94450CFFFFFFFFFFFF94450CFFFFFF94450CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105FFFFFFF5B105F5B105FFFFFFF5B105F9F9F5F5B105FCFCF8FFFFFFFFFFFFF5B105FFFFFFFFFFFFFFFFFFF5B105F5B105FFFFFFF5B105FFFFFFF5B105F5B105F7F6F3F5B105FDFBF6F5B105F5B105F5B105FFFFFFF5B105F5B105F5B105F5B105FFFFFFFFFFFFFFFFFFFFFFFFF5B105F9F9F7F5B105FDFCF8FFFFFFFFFFFFF5B105FFFFFFF5B105F5B105F5B105F5B105FFFFFFF5B105F5B105FFFFFFF5B105F9F9F7F5B105FCFCFAF5B105F5B105F5B105FFFFFFF5B105F5B105F5B105F5B105FFFFFFFFFFFFFFFFFFFFFFFFF5B105F9F9F7F5B105FCFCFAFDFCF9FCFAF3F5B105FFFFFFFFFFFFFFFFFFF5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105F5B105</ImageData16x14>                
+            </Device>
+        </Devices>
+    </Descriptions>
+</EtherCATInfo>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EtherCATInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="EtherCATInfo.xsd" Version="1.2">
+  <Vendor>
+    <Id>1874</Id>
+    <Name>NEXCOM International Co., Ltd.</Name>
+    <ImageData16x14>424de6000000000000007600000028000000100000000e000000010004000000000070000000c40e0000c40e000010000000000000000000000000008000008000000080800080000000800080008080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00ffff0000ffffff00aaaaaaaaaaaaaaaaff444aa444a4a4a4f4faaa4aaa444444f4ffaa4aaa444a44f4fffa4aaa444a44ff444aa444a4aaa4ffffffaaaaaaaaaaf4ff4ff4444a4a4af4f44ff4faaa4a4af4f44ff4ffaaa4aaf44f4ff4444fa4aaf44f4ff4ffff4a4af4ff4ff4444f4f4afffffffffffffffa</ImageData16x14>
+  </Vendor>
+  <Descriptions>
+    <Groups>
+      <Group>
+        <Type>B1200</Type>
+        <Name LcId="1033">Digital Output Block I/O Modules (NEIO B1200 Series)</Name>
+        <Name LcId="1031">Digital Ausgang Block I/O Modules (NEIO B1200 Series)</Name>
+        <ImageData16x14>424de6000000000000007600000028000000100000000e000000010004000000000070000000c40e0000c40e000010000000000000000000000000008000008000000080800080000000800080008080000080808000c0c0c0000000ff0000ff000000ffff00ff000000ff00ff00ffff0000ffffff00ff9999ff9999ff99999ff9999ff9999ffffffffffffffffff22222277277222ff22222277277222ff22222222222222ff20202222000222ff20202220222022ff20220220222022ff20220220222022ff20220220222022ff20222020222022fff0fff0ff000ffffffffffffffffffff</ImageData16x14>
+      </Group>
+    </Groups>
+    <Devices>
+      <Device Physics="YY">
+        <Type ProductCode="#x00001201" RevisionNo="#x00000001">NEIO B1201</Type>
+        <Name LcId="1033"><![CDATA[NEIO B1201, 32Ch. Digital Output 24V, 0.5A, Sinking]]></Name>
+        <Name LcId="1031"><![CDATA[NEIO B1201, 32Ch. Digital Ausgang 24V, 0.5A, Sinking]]></Name>
+        <URL LcId="1033"><![CDATA[http://www.nexcom.com/]]></URL>
+        <URL LcId="1031"><![CDATA[http://www.nexcom.com/]]></URL>
+        <GroupType>B1200</GroupType>
+        <Fmmu OpOnly="1">Outputs</Fmmu>
+        <Sm StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <Sm StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <Sm StartAddress="#x0f02" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <Sm StartAddress="#x0f03" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <RxPdo Fixed="1" Sm="0">
+          <Index>#x1a00</Index>
+          <Name>Byte 0</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <RxPdo Fixed="1" Sm="1">
+          <Index>#x1a01</Index>
+          <Name>Byte 1</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <RxPdo Fixed="1" Sm="2">
+          <Index>#x1a02</Index>
+          <Name>Byte 2</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <RxPdo Fixed="1" Sm="3">
+          <Index>#x1a03</Index>
+          <Name>Byte 3</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <Dc>
+          <OpMode>
+            <Name>DcOff</Name>
+            <Desc>DC unused</Desc>
+            <AssignActivate>#x0000</AssignActivate>
+          </OpMode>
+          <OpMode>
+            <Name>DcSync</Name>
+            <Desc>DC for synchronization</Desc>
+            <AssignActivate>#x0100</AssignActivate>
+            <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+            <ShiftTimeSync0>0</ShiftTimeSync0>
+          </OpMode>
+        </Dc>
+        <Eeprom>
+          <ByteSize>2048</ByteSize>
+          <ConfigData>040F00441027FFFF</ConfigData>
+        </Eeprom>
+      </Device>
+      <Device Physics="YY">
+        <Type ProductCode="#x00001202" RevisionNo="#x00000001">NEIO B1202</Type>
+        <Name LcId="1033"><![CDATA[NEIO B1202, 32Ch. Digital Output 24V, 0.5A, Sourcing]]></Name>
+        <Name LcId="1031"><![CDATA[NEIO B1202, 32Ch.  Digital Ausgang 24V, 0.5A, Sourcing]]></Name>
+        <URL LcId="1033"><![CDATA[http://www.nexcom.com/]]></URL>
+        <URL LcId="1031"><![CDATA[http://www.nexcom.com/]]></URL>
+        <GroupType>B1200</GroupType>
+        <Fmmu OpOnly="1">Outputs</Fmmu>
+        <Sm StartAddress="#x0f00" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <Sm StartAddress="#x0f01" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <Sm StartAddress="#x0f02" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <Sm StartAddress="#x0f03" ControlByte="#x44" Enable="1" OpOnly="1">Outputs</Sm>
+        <RxPdo Fixed="1" Sm="0">
+          <Index>#x1a00</Index>
+          <Name>Byte 0</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>1</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <RxPdo Fixed="1" Sm="1">
+          <Index>#x1a01</Index>
+          <Name>Byte 1</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>2</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <RxPdo Fixed="1" Sm="2">
+          <Index>#x1a02</Index>
+          <Name>Byte 2</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>3</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <RxPdo Fixed="1" Sm="3">
+          <Index>#x1a03</Index>
+          <Name>Byte 3</Name>
+          <Entry>
+            <Index>#x3101</Index>
+            <SubIndex>4</SubIndex>
+            <BitLen>8</BitLen>
+            <Name>Output</Name>
+            <DataType>BITARR8</DataType>
+          </Entry>
+        </RxPdo>
+        <Dc>
+          <OpMode>
+            <Name>DcOff</Name>
+            <Desc>DC unused</Desc>
+            <AssignActivate>#x0000</AssignActivate>
+          </OpMode>
+          <OpMode>
+            <Name>DcSync</Name>
+            <Desc>DC for synchronization</Desc>
+            <AssignActivate>#x0100</AssignActivate>
+            <CycleTimeSync0 Factor="1">0</CycleTimeSync0>
+            <ShiftTimeSync0>0</ShiftTimeSync0>
+          </OpMode>
+        </Dc>
+        <Eeprom>
+          <ByteSize>2048</ByteSize>
+          <ConfigData>040F00441027FFFF</ConfigData>
+        </Eeprom>
+      </Device>
+    </Devices>
+  </Descriptions>
+</EtherCATInfo>

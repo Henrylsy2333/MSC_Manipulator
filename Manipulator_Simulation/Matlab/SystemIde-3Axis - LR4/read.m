@@ -1,0 +1,18 @@
+clc;clear;
+filename = '.\test.txt';
+[q0,q1,q2,dq0,dq1,dq2,tol1,tol2,tol3]=textread(filename,'%n%n%n%n%n%n%n%n%n');
+t=0.002:0.002:10;
+figure(1);
+subplot(3,1,1);
+plot(t',q0) ;
+subplot(3,1,2);
+plot(t',q1) ;
+subplot(3,1,3);
+plot(t',q2) ;
+figure(2);
+subplot(3,1,1);
+plot(t',tol1) ;
+subplot(3,1,2);
+plot(t',tol2) ;
+subplot(3,1,3);
+plot(t',tol3) ;
